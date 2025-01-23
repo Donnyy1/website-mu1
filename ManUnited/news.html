@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Manchester United</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgILH8NPYV63BA2KDYGxSFGgsoHMhLRHuGg&s" type="image/png" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-image: url('https://i.ytimg.com/vi/16iul0f3jQI/maxresdefault.jpg');
+            background-size: 33%;
+            background-position: center;
+            color: white;
+            padding: 6.9em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ab3229;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .news-box {
+            display: flex;
+            width: 100%;
+            margin-bottom: 50px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .news-box:hover {
+            transform: scale(1.05);
+        }
+
+        .news-box img {
+            width: 30%;
+            height: auto;
+            border-radius: 8px 0 0 8px;
+        }
+
+        .news-box .content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .news-box .content h2 {
+            margin: 0;
+            font-size: 25px;
+            color: #333;
+        }
+
+        .news-box .content p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #ab3229;
+            color: white;
+            padding: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    
+    <nav>
+        <a href="news.html">BERITA</a>
+        <a href="about.html">TENTANG</a>
+        <a href="prestasi.html">PRESTASI</a>
+        <a href="pemain.html">PEMAIN</a>
+        <a href="legenda.html">UNITED LEGENDS</a>
+        <a href="galery.html">ALBUM</a>
+    </nav>
+
+    <section>
+        <div class="news-box" onclick="window.location.href='berita1.html'">
+            <img src="https://thumbor.prod.vidiocdn.com/uuWc3rg89PT8Qlcsi2v7S8q3FzQ=/785x440/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8537145/fm-epl-man-utd-vs-brighton-093593.jpg">
+            <div class="content">
+                <h2>Hasil Manchester United vs Brighton & Hove Albion</h2>
+                <p>Manchester United kembali mengalami kekalahan di kandang sendiri setelah kalah 1-3 dari Brighton & Hove Albion.</p>
+            </div>
+        </div>
+        
+        <div class="news-box" onclick="window.location.href='berita2.html'">
+            <img src="https://thumbor.prod.vidiocdn.com/_aqoGOa0cfz9PUxhcIj4zAPpks4=/785x440/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8533096/fm-epl-man-utd-vs-southampton-aac28a.jpg">
+            <div class="content">
+                <h2>Hasil Manchester United vs Southampton</h2>
+                <p>Manchester United berhasil mengamankan tiga poin di lanjutan Liga Inggris. MU bangkit dari ketinggalan untuk mengalahkan Southampton dengan skor akhir 3-1</p>
+            </div>
+        </div>
+
+        <div class="news-box" onclick="window.location.href='berita3.html'">
+            <img src="https://thumbor.prod.vidiocdn.com/C7BHSs4nxkw7ziozUJL-GAqubd0=/1280x720/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8527479/fm-fa-cup-arsenal-vs-man-united-4974a2.jpg">
+            <div class="content">
+                <h2>Hasil Arsenal vs Manchester United</h2>
+                <p>Manchester United sukses melaju ke babak berikutnya di Piala FA setelah menyingkirkan Arsenal lewat drama adu penalti dengan skor 5-3.</p>
+            </div>
+        </div>
+
+        <div class="news-box" onclick="window.location.href='berita4.html'">
+            <img src="https://thumbor.prod.vidiocdn.com/7qqTeaKkZAb97qLvwUd4geEBT3E=/785x440/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8517981/fm-epl-liverpool-vs-man-united-e0b876.jpg">
+            <div class="content">
+                <h2>Hasil Liverpool vs Manchester United</h2>
+                <p>Dalam laga sengit yang berlangsung di Anfield, Liverpool dan Manchester United gagal memisahkan diri setelah berakhir dengan skor imbang 2-2. </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Website Donny
+    </footer>
+</body>
+</html>
